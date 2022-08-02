@@ -9,7 +9,7 @@ bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
 
-button = KeyboardButton(['Москва'], ['Санкт-Петербург'])
+button = KeyboardButton(['Москва'])
 
 greet_kb = ReplyKeyboardMarkup()
 greet_kb.add(button)
